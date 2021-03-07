@@ -17,9 +17,9 @@ If no agent is running execute the following.
 $ eval `ssh-agent`
 ```
 
-If the agent is running but no identities.
+Then run the following to add your identity to the agen
 ```shell
-$ ssh-add -l
+$ ssh-add
 The agent has no identities.
 ```
 
